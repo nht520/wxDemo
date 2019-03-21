@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "WXS",
+    "usingComponents": {
+      "toast": "../../components/toast/toast"
+    }
+}

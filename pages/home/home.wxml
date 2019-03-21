@@ -1,0 +1,32 @@
+<!--pages/home/home.wxml-->
+<view>
+  <!-- 引用header组件 -->
+  <!-- 父子组件传值-->
+  <header id="header" bindparaet="home" title="{{title}}"></header>
+  <br/>
+  <!-- 父组件调用子组件的方法 -->
+    <!-- 1.调用子组件的时候定义一个id
+    2.var header = this.selectComponent("header")
+    3.header.方法名  调用子组组件的方法 -->
+    <button type="primary"  bindtap="getChild"> 获取子组件的方法和值</button>
+  <text>{{msg}}</text>
+
+  <br/>
+  <button type="primary" data-aid="321"  bindtap="primary"> 点击跳转</button>
+  
+  <br/>
+  <view>
+
+  <button data-aid="520" type="warn"  bindtap="details"> 页面跳转到组件传值</button>
+  </view>
+
+  <!-- 调用footer组件 -->
+  <footer>
+    <button size='mini'>我是一个按钮放在slot里面</button>
+  </footer>
+
+
+ 
+
+
+</view>

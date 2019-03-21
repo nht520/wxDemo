@@ -1,0 +1,14 @@
+<!--pages/wxs/wxs.wxml-->
+<wxs src="../tools.wxs" module="tools" />
+<view>
+  <text>我是wxs</text>
+  <view>{{tools.foo}}</view>
+<view>{{tools.bar("1111")}}</view>
+<view>{{tools.formatDate(datTime)}}</view>
+<!-- 调用小程序组件 -->
+
+  <toast id="toast"></toast>
+  <button bindtap='dyToast' size='mini'>调用</button>
+
+</view>
+

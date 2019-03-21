@@ -1,0 +1,9 @@
+/* pages/details/details.wxss */
+.h1{
+  color: #f00;
+  font-weight: bold;
+  line-height: 30px;
+}
+.details{
+  padding: 5%;
+}

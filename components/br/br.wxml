@@ -1,0 +1,4 @@
+<!--components/br/br.wxml-->
+<view class='br'>
+    <text>我是br组件</text>
+</view>

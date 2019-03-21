@@ -1,0 +1,13 @@
+<!--pages/about/about.wxml-->
+<view class='content'>
+  <view class='warp'>
+    <view class='h2'>525200</view>
+    <view class='list'>
+      <view class='item' data-aid="{{item.aid}}"  bindtap='goContent' wx:for="{{list}}" wx:for-item="item" wx:key="aid">
+        <image src='../../static/images/dangao.jpg'></image>
+        <!-- <image src='{{host}}{{item.pic}}'></image> -->
+        <text>{{item.title}}</text>
+      </view> 
+    </view>
+  </view>
+</view>

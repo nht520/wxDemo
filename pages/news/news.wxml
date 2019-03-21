@@ -1,0 +1,23 @@
+<!--pages/news/news.wxml-->
+<view class='news' >
+  <text wx:if="{{show}}">
+    {{news}}+{{obj.name}}
+  </text>
+  <view  class='newsdt'  wx:for="{{list}}" wx:key="index" >
+      {{index}}+{{item.title}}
+    <view wx:for="{{item.list1}}" wx:key="index">
+      {{item.name}}+ {{item.pswor}}
+    </view>
+  </view>
+   <button bindtap="run">点击</button>
+ -------------
+  <view class='lst2' wx:for="{{lst2}}" wx:key="index">
+    {{index}}+{{item}}
+  </view>
+  <text data-id='{{id}}'>123 </text>
+</view>
+
+
+<view data-aid="999" bindtap='setEvt'>事件对象</view>
+
+<button data-cid="cid" data-title="小程序" bindtap='zxbutn'>执行方法传值</button> 

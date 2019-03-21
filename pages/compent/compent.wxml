@@ -1,0 +1,10 @@
+<!--pages/compent/compent.wxml-->
+<view>
+  <view>
+    <!-- 引用组件 -->
+    <br/>
+    <!-- 引用header组件 -->
+    <header title="{{title}}"></header>
+    <!--  -->
+  </view>
+</view>

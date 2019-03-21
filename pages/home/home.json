@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "奈何天",
+  "usingComponents": {
+    "header": "../../components/header/header",
+    "footer": "../../components/footer/footer",
+    "br": "../../components/br/br"
+  }
+}

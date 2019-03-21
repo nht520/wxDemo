@@ -1,0 +1,13 @@
+<!--components/header/header.wxml-->
+<view class='header'>
+  <text>{{title}}</text>
+ 
+  {{msg}}
+  <button bindtap='run' size="mini">按钮</button>
+    <!-- <!-子组件获取伏组件的方式和值-  --> 
+      <!--  -->
+    <!-- 1.this.triggerEvent('myevent',数据，参数 )
+         2.<header bindmyevent="run"> -->
+  <button bindtap='runHome' size="mini">触发父组件的方法</button>
+</view>
+

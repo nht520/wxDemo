@@ -1,0 +1,12 @@
+/* pages/news/news.wxss */
+.newsdt{
+  margin-top: 20px;
+}
+
+
+.heigh{
+  height: 1px;
+  width: 100%;
+  background: #f00;
+  color: #ffffff;
+}

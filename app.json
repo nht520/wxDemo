@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/about/about",
+    "pages/news/news",
+    "pages/index/index",
+    "pages/details/details",
+    "pages/compent/compent",
+    "pages/wxs/wxs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "奈何天",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#252433",
+    "selectedColor":"#f00",
+    "borderStyle":"black",
+    "backgroundColor":"#ffffff",
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath":"static/images/home.png",
+        "selectedIconPath":"static/images/homeOne.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "订单",
+        "iconPath": "static/images/Listone.png",
+        "selectedIconPath": "static/images/List.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "我的",
+        "iconPath": "static/images/about.png",
+        "selectedIconPath": "static/images/aboutOne.png"
+      },
+      {
+        "pagePath": "pages/wxs/wxs",
+        "text": "WXS",
+        "iconPath": "static/images/about.png",
+        "selectedIconPath": "static/images/aboutOne.png"
+      }
+    ]
+  }
+}

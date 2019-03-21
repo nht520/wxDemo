@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "组件",
+  "usingComponents": {
+    "br":"../../components/br/br",
+    "header": "../../components/header/header",
+    "swiper": "../../components/swiper/swiper"
+  }
+  
+}

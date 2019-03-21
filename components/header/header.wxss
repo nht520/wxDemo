@@ -1,0 +1,10 @@
+/* components/header/header.wxss */
+
+.header{
+  width: 100%;
+  background: #f00;
+  color: #ffffff;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 10%;
+}

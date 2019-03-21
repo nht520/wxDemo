@@ -1,0 +1,4 @@
+<!--components/footer/footer.wxml-->
+<view>我是一个底部组件</view>
+
+<slot></slot>
